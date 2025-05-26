@@ -13,11 +13,13 @@
       color: #fff;
       background: url('https://fonesmart.com.vn/upload_images/images/2023/03/11/hinh-nen-phi-hanh-gia-15.jpg') no-repeat center center fixed;
       background-size: cover;
-      height: 100vh;
-      overflow: hidden;
+      min-height: 100vh;
+      overflow-y: auto; /* ✅ Cho phép cuộn */
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+      padding: 50px 20px; /* ✅ Thêm padding để tránh sát mép */
+      box-sizing: border-box;
     }
 
     .container {
@@ -25,7 +27,7 @@
       border-radius: 25px;
       padding: 40px 60px;
       max-width: 1100px;
-      width: 95%;
+      width: 100%;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
       transform: rotate(5deg);
       animation: slideIn 2s ease-in-out;
@@ -155,23 +157,4 @@
     <!-- Hình ảnh Tinh Vân Orion -->
     <h2>🌠 Tinh Vân Orion</h2>
     <p>Tinh vân Orion là nơi sinh ra hàng triệu ngôi sao mới. Đây là một trong những nơi sáng và rộng lớn nhất trong vũ trụ, mang lại cái nhìn tuyệt vời về sự hình thành các thiên hà mới.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OrionNebula_Hubble.jpg" alt="Tinh Vân Orion" class="section-image" />
-
-    <!-- Hình ảnh UFO -->
-    <h2>👽 UFO Và Sinh Vật Ngoài Hành Tinh</h2>
-    <p>Liệu chúng ta có phải là sinh vật duy nhất trong vũ trụ? Những dấu hiệu về UFO và sinh vật ngoài hành tinh vẫn đang là một bí ẩn lớn mà khoa học chưa thể giải đáp.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/UFO_Dawn.png" alt="UFO" class="section-image" />
-
-    <!-- Liên kết -->
-    <div class="links">
-      <a href="thongtin.html" target="_blank">🔭 Thông Tin Vũ Trụ</a>
-      <a href="nhungdieucanbiet.html" target="_blank">🪐 Những Điều Cần Biết</a>
-      <a href="subianvutru.html" target="_blank">🌌 Sự Bí Ẩn Vũ Trụ</a>
-      <a href="chieusauvekhonggian.html" target="_blank">🌠 Chiều Sâu Không Gian</a>
-    </div>
-  </div>
-
-</body>
-</html>
-
-
+    <img src="https://upload
